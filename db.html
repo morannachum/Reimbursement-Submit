@@ -49,9 +49,17 @@
 
 </style>
 
+<!-- More CSS. -->
 <link type="text/css" rel="stylesheet" href="https://secure.jotformpro.com/css/styles/buttons/form-submit-button-simple_blue.css?3.2.514"/>
+
+<!-- JavaScript -->
+<!-- JavaScript for progress reporting and autofill purposes.  Makes certain that all fields are filled out properly. -->
 <script src="https://static-interlogyllc.netdna-ssl.com/static/jotform.js?3.2.514" type="text/javascript"></script>
+
+<!-- JavaScript for mathematical operators and functions. -->
 <script src="https://static-interlogyllc.netdna-ssl.com/js/vendor/math-processor.js?v=3.2.514" type="text/javascript"></script>
+
+<!-- JavaScript for instructional messages for all the different inputs -->
 <script type="text/javascript">
    JotForm.setCalculations([{"decimalPlaces":"2","equation":"","equationText":"","operands":"","readOnly":"","resultField":"18","showBeforeInput":"1"}]);</script>
 <script type="text/javascript">
@@ -81,8 +89,18 @@
       JotForm.description('input_16', 'Got anything else to add?');
    });
 </script>
+
+<!-- Content -->
 </head>
 <body>
+
+<!-- Declares this to be a form-type web page; expect inputs. -->
+<!-- action command declares where the data will go once the submit button is hit.  Not sure what happens to it there. -->
+<!-- method action sends form-data as HTTP post transaction, as opposed to URL variables in the case of "get" -->
+<!-- enctype command specifies how the form-data should be encoded when submitting it to the server -->
+<!-- class command references the JavaScript entry, jotform-form.  File too convoluted to discern what is going on with that class. -->
+<!-- I assume it changes the formatting, autocompletes, or returns errors when somebody presses of a field. -->
+
 <form class="jotform-form" action="https://submit.jotformpro.com/submit/31017284813954/" method="post" enctype="multipart/form-data" name="form_31017284813954" id="31017284813954" accept-charset="utf-8">
   <input type="hidden" name="formID" value="31017284813954" />
   <div class="form-all">
